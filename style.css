@@ -1,0 +1,402 @@
+body {}
+
+.logo img {
+    width: 90px;
+}
+
+.menu {
+    font-size: 19px;
+}
+
+.active {
+    color: #007e85 !important;
+    ;
+}
+
+.log-in {
+    background-color: #007E85 !important;
+    color: #ffff !important;
+    padding: 0px 30px !important;
+    margin-right: 70px !important;
+}
+
+.sign-up {
+    color: #007E85 !important;
+    border: none !important;
+    margin-right: 10px !important;
+}
+
+.sign-up:hover {
+    background-color: #ffff !important;
+}
+
+.logo-text {
+    margin-right: 100px;
+    color: #007E85;
+}
+
+.logo-text span {
+    color: #79b046;
+}
+
+.banner {
+    margin-top: 40px;
+}
+
+.intro {
+    align-items: center;
+
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro span {
+    color: #79b046;
+}
+
+.green {
+    color: #007E85;
+}
+
+.intro p {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.image img {
+    height: 300px;
+
+}
+
+.image {
+    background: linear-gradient(180deg, #007E85 0%, rgba(43, 133, 0, 0.49) 100%);
+    clip-path: polygon(49% 4%, 79% 11%, 89% 43%, 89% 70%, 76% 91%, 46% 96%, 20% 90%, 11% 70%, 9% 43%, 19% 10%);
+    width: 120px;
+    margin: auto;
+
+
+}
+
+.appointment-btn {
+    background-color: #007E85 !important;
+    color: #ffff !important;
+    padding: 5px 30px !important;
+
+}
+
+.play-btn {
+    background-color: #007E85;
+    color: #ffff;
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-left: 30px;
+}
+
+dfn {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Find A Doctor */
+
+
+.available {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.available p {
+    margin-top: 10px;
+}
+
+.input-text input {
+    border: 1px solid rgba(0, 126, 133, 1);
+}
+
+.switch {
+    margin-left: 15px;
+
+}
+
+.search button {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ /* Our Result in Number */
+
+.results-row {
+    margin-top: 50px !important;
+}
+
+.results {
+    margin-top: 60px;
+}
+
+.results h1 {
+    color: #007E85;
+    text-align: center;
+}
+
+.results p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.results span {
+    color: #4f8c90;
+}
+
+
+
+.choose {
+    margin-top: 100px !important;
+    align-items: center !important;
+}
+
+.choose p {
+    color: rgba(85, 85, 85, 1);
+}
+
+.choose h1 {
+    color: #007E85;
+}
+
+.choose button {
+    border-radius: 60px;
+    padding: 8px 20px;
+    background-color: #007E85;
+    border: none;
+    margin: 0px 5px;
+}
+
+.choose button :hover {
+    background-color: red !important;
+}
+
+.sales-btn {
+    background-color: #ffff !important;
+    color: #007E85 !important;
+    border: 1px solid rgb(183, 182, 182) !important;
+}
+
+.choose-up img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+/* Services We provide */
+
+.services {
+    margin-top: 100px !important;
+}
+
+.service {
+    justify-content: center;
+    margin-top: 40px !important;
+    cursor: pointer;
+}
+
+.service-card {
+    margin: 20px 10px;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 90% !important;
+    
+
+}
+
+.service-card p {
+    color: rgba(85, 85, 85, 1);
+    cursor:text;
+}
+
+.service-card img {
+    height: 180px !important;
+    margin-top: 15px;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: #007E85
+}
+
+.services h1 {
+    text-align: center;
+    color: rgba(0, 126, 133, 1);
+    cursor:text;
+
+}
+
+.services>p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+/* Team Member */
+
+.team-member {
+    margin: 20px 10px;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 90% !important;
+    padding-top: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.team-member p {
+    color: rgba(85, 85, 85, 1);
+    cursor: text;
+}
+
+.team-member h5 {
+    color: #007E85;
+}
+
+.team-member h6 {
+    text-transform: uppercase;
+    cursor: text;
+}
+
+.team-member img {
+    height: 100px !important;
+    margin-top: 15px;
+    border-radius: 100%;
+    width: 6rem;
+    margin: auto;
+}
+
+.team-member i {
+    margin: 0px 10px 20px 0px;
+    background: rgba(0, 126, 133, 0.187);
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+/* Testimoinal */
+
+.testimonial-member {
+    margin: 20px 10px;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 90% !important;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.testimonial-member P {
+    color: rgba(85, 85, 85, 1);
+    cursor: text;
+}
+
+.testimonial h1 {
+    text-align: center;
+    color: rgba(0, 126, 133, 1);
+    margin-top: 25px;
+
+}
+
+.testimonial>p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.testimonial-member h6 {
+    color: #007E85;
+    margin-top: 20px;
+}
+
+.testimonial-member img {
+    height: 50px !important;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 3rem;
+    margin-left: 15px;
+}
+
+/* Trusted Companies */
+
+.company-logo img {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Companies h1 {
+    color: rgba(0, 126, 133, 1);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.company-logo {
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    cursor: pointer;
+}
+
+        /* Footer */
+
+.footer{
+    background: rgba(0, 126, 133, 1);
+    color: #ffff;
+    margin-top: 60px !important;
+}
+.foot-sec-1{
+    margin-top: 40px !important;
+}
+.foot-sec-1 img{
+width:40% ;
+
+}
+.foot-sec-1 span{
+    font-size: 25px;
+}
+.foot-sec-1 p{
+    margin-left: 30px;
+}
+.foot-sec{
+    margin-top: 80px !important;    
+}
+.foot-sec ul {
+    margin-top: 50px;
+}
+.foot-sec ul li{
+list-style: none;
+line-height: 40px;
+}
+
+.foot-sec ul li a {
+    color: #ffff;
+    text-decoration: none;
+
+}
+.foot-sec ul li i{
+    color: rgba(85, 85, 85, 1);
+    background: rgba(242, 241, 250, 1);
+    padding: 4px;
+    border-radius: 20%;
+
+}
+.foot-sec h3{
+    margin-left: 30px;
+    font-size: 20px;
+}

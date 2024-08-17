@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Appointment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="bg-light">
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#">
+        <img src="assets/images/logo.png" alt="">
+      </a>
+      <h3 class="logo-text">Health<span>care</span></h3>
+
+      <!-- Nav Bar -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+          <li class="nav-item menu">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="#" role="button" aria-expanded="false">
+              Contact Us
+            </a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-success sign-up" type="submit">Sign Up</button>
+          <button class="btn btn-outline-success log-in">Log In</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Bannner -->
+
+  <div class="container banner">
+    <div class="row intro">
+      <div class="col-lg-6 .col-sm-12	.col-md-6	.col-lg-6	.col-xl-6	">
+        <h2 class="animate__animated animate__zoomIn animate__delay-0s">Providing Quality Healthcare for A <span>
+            Brighter </span>and <span>Healthy </span>Future</h2>
+        <p>At our hospital, we are dedicated to providing exceptional medical care to our patients and their families.
+          Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a
+          leader in the healthcare industry</p>
+        <button class="btn btn-outline-success appointment-btn">Appointment</button>
+        <i class="fa-solid fa-play play-btn"></i><button data-toggle="modal" data-target="#exampleModal"
+          style="border: none;">Watch
+          Video</button>
+      </div>
+      <div class="col-lg-6 .col-sm-12	.col-md-6	.col-lg-6	.col-xl-6 image ">
+        <img src="assets/images/doctor-picture.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Appointment Video</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ztb5S99qSN0?si=HMmLYdleCf2-0k6-"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 450px;"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Find A Doctor -->
+
+  <div class="container bg-white pb-4 pt-3 mt-5">
+    <div class="row">
+      <h1>Find A Doctor</h1>
+      <div class="col-lg-3  col-sm-6	col-md-3 col-xl-3 input-text">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3 input-text">
+        <input type="text" class="form-control" id="floatingPassword" placeholder="Speciality">
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3 d-flex available">
+        <p>Available</p>
+        <span class="form-check form-switch switch">
+          <input class="form-check-input swit" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </span>
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3 search">
+        <button class="btn btn-outline-success appointment-btn ">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Results in Number -->
+
+  <div class="container results ">
+    <h1 class="animate__animated animate__zoomIn">Our results in numbers</h1>
+    <div class="row results-row"data-aos="zoom-in">
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3">
+        <h1>99<span>%</span></h1>
+        <p>Sustomer satisfaction</p>
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3">
+        <h1>15<span>k</span></h1>
+        <p>Online Patients</p>
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3">
+        <h1>12<span>k</span></h1>
+        <p>Patients Recovered</p>
+      </div>
+      <div class="col-lg-3  col-sm-6	col-md-3	col-xl-3">
+        <h1>240<span>%</span></h1>
+        <p>Company growth</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row choose " >
+      <div class="col-lg-6 col-sm-12	col-md-6	col-xl-6 service-col" data-aos="fade-right">
+        <h1>You have lots of reasons <br> to choose us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque rem saepe quidem quod commod ! </p>
+        <button type="button" class="btn btn-primary">Get started</button>
+        <button type="button" class="btn btn-primary sales-btn">Task to sales</button>
+      </div>
+      <div class="col-lg-6 col-sm-12	col-md-6	col-xl-6 choose-up" data-aos="fade-left">
+        <img src="assets/images/choose us.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Services We provide -->
+
+  <div class="container services ">
+    <h1 data-aos="zoom-in">Services we provide </h1>
+    <p data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br> elementum tempus hac tellus libero
+      accumsan. </p>
+    <div class="row service">
+
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem ;">
+        <img src="assets/images/services-1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dental treatments</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/services-2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bones treatments</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/services-3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Diagnosis</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/services-4.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cardiology</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/services-5.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Surgery</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 service-card" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/services-6.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eye care</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+            facilisis volutpat est velitolm.</p>
+          <a href="#">learn more <i class="fa fa-solid fa-arrow-right"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Meet Our Team Members -->
+
+  <div class="container services">
+    <h1>Meet our team members </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat gravida <br> malesuada quam commodo id integer
+      nam.</p>
+    <div class="row service">
+
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member "data-aos="fade-right" style="width: 18rem ;">
+        <img src="assets/images/team-member-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">John Carter</h5>
+          <h6>CEO & Co-Founder</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/team-member-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sophie Moore</h5>
+          <h6>dental specialist</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member" data-aos="fade-left" style="width: 18rem;">
+        <img src="assets/images/team-member-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Matt Cannon</h5>
+          <h6>orthopedic</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member" data-aos="fade-right" style="width: 18rem;">
+        <img src="assets/images/team-member-4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Andy Smith</h5>
+          <h6>brain surgeon</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member" data-aos="zoom-in" style="width: 18rem;">
+        <img src="assets/images/team-member-5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lily Woods</h5>
+          <h6>heart specialist</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 team-member" data-aos="fade-left" style="width: 18rem;">
+        <img src="assets/images/team-member-6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Patrick Meyer</h5>
+          <h6>eye specialist</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim
+            iaculis mi. </p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-square-instagram" style="color:rgb(128,125,4);"></i><i class="fa-brands fa-linkedin"
+              style="color: #5d82c0;"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial -->
+
+  <div class="container testimonial">
+    <h1 data-aos="fade-down">Testimonial </h1>
+    <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br> elementum tempus hac tellus libero
+      accumsan. </p>
+    <div class="row service">
+
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 testimonial-member" data-aos="fade-down" style="width: 18rem ;">
+        <img src="assets/images/testimonial-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">“An amazing service”</h5>
+          <p class="card-text">Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl
+            suscipit adipis.</p>
+          <h6>John Carter</h6>
+          <p>CEO at Google</p>
+
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 testimonial-member" data-aos="fade-down" style="width: 18rem;">
+        <img src="assets/images/testimonial-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">“One of a kind service”</h5>
+          <p class="card-text">Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl
+            suscipit adipis.</p>
+          <h6>Sophie Moore</h6>
+          <p>MD at Facebook</p>
+
+
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12	col-md-6	col-xl-3 testimonial-member" data-aos="fade-down" style="width: 18rem;">
+        <img src="assets/images/testimonial-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">“The best service”</h5>
+          <p class="card-text">Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl
+            suscipit adipis.</p>
+          <h6>Andy Smith</h6>
+          <p>CEO Dot Austere</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Trusted Companies -->
+
+  <div class="container Companies"data-aos="zoom-in-up">
+    <h1>Trusted by 10,000+ companies around the world</h1>
+    <div class="row company-logo">
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2">
+        <h2>Google</h2>
+      </div>
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2">
+        <h2>facebook</h2>
+      </div>
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2"><img src="assets/images/youtube-logo.png" alt=""></div>
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2"><img src="assets/images/pintrest-logo.png" alt=""></div>
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2"><img src="assets/images/twitch.png" alt=""></div>
+      <div class="col col-lg-2 col-sm-6	col-md-4	col-xl-2"><img src="assets/images/web flow.png" alt=""></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <h1 class="text-center w-100">Subscribe to our newsletter</h1>
+      <div class="col-2"></div>
+      <div class="col-8">
+        <form action="" class="d-flex justify-content-center align-items-center mt-2 mb-2">
+          <div class="d-flex w-100">
+            <input type="email" class="form-control w-75 me-3 rounded-pill" placeholder="Enter your email">
+            <button type="submit" class="btn btn-primary rounded-pill"
+              style="background-color: rgba(0, 126, 133, 1); border: none;">Subscribe</button>
+          </div>
+        </form>
+
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <div class="container-fluid">
+
+    <div class="row footer">
+      <div class=" col-lg-4 col-sm-6	col-md-4	col-xl-4 foot-sec-1">
+        <a href="#"> <img src="assets/images/logo.png" alt=""></a>
+        <span>Healthcare</span>
+        <p>Copyright © 2024 Doctor Appointment Powerd By <a
+            href="https://www.linkedin.com/in/muhammad-moeed-qadri-977568269/ " target="_blank"
+            style="text-decoration: none; color: #ffff;">M Moeed Qadri </a><br>| All Rights Reserved </p>
+      </div>
+      <div class=" col-lg-2 col-sm-6	col-md-3	col-xl-2 foot-sec">
+        <h3>Product</h3>
+
+        <ul>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Case studies</a>
+          </li>
+          <li>
+            <a href="#">Reviews</a>
+          </li>
+          <li>
+            <a href="#">Updates</a>
+          </li>
+        </ul>
+      </div>
+      <div class=" col-lg-2 col-sm-6	col-md-4	col-xl-2 foot-sec">
+        <h3>Company</h3>
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Culture</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class=" col-lg-2 col-sm-6	col-md-4	col-xl-2 foot-sec">
+        <h3>Support</h3>
+        <ul>
+          <li>
+            <a href="#">Getting started</a>
+          </li>
+          <li>
+            <a href="#">Help center</a>
+          </li>
+          <li>
+            <a href="#">Server status</a>
+          </li>
+          <li>
+            <a href="#">Report a bug</a>
+          </li>
+          <li>
+            <a href="#">Chat support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class=" col-lg-2 col-sm-6	col-md-4	col-xl-2 foot-sec">
+        <h3>Follow us</h3>
+        <ul>
+          <li>
+            <i class="fa-brands fa-facebook-f"></i>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter"></i>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-square-instagram"></i>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="#">Linkdin</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-youtube"></i>
+            <a href="#">Youtube</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="https://kit.fontawesome.com/de617e3533.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="bootstrap1.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</html>
